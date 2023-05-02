@@ -56,12 +56,15 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
+    <!--1-->
     <h2>@Name @Last</h2>
+
+    <!--2-->
     <p>@SumNumbers(3)</p>
 
     <p>@count</p>
 
-    
+    <!--3-->
     <ul>
         @foreach(int number in RandomNumber())
         {
@@ -69,14 +72,17 @@
         }
     </ul>
 
+    <!--4-->
     <h3>@date</h3>
 
+    <!--5-->
     <h6>7 days: </h6>
     <h5>
         Time Now: 
         @dateLessSeven
     </h5>
 
+    <!--6-->
     <h6>Giorno di oggi: </h6>
     <h1>@dayOfWeek</h1>
 
